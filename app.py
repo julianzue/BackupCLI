@@ -151,7 +151,7 @@ def main():
                     os.system(f"cp -r '{dirpath}/{filename}' '{t}/{filename}'")
             else:
                 if not os.path.exists(f"{t}{dirpath.replace(f, "")}"):
-                    os.system(f"mkdir -p {t}{dirpath.replace(f, "")}")
+                    os.system(f"mkdir -p '{t}{dirpath.replace(f, "")}'")
 
                 if os.path.exists(f"{t}{dirpath.replace(f, "")}/{filename}"):
                     count_skipped += 1
