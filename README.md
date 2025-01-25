@@ -1,5 +1,8 @@
 # BackupCLI
 
+## Screenshot
+![image info](./screenshot.png)
+
 ## Description
 - With this command line tool written in python, you can copy files from one folder to the other.
 - After you start the app.py you are asked for the path, where you would like to copy from, and the target path where you would like to copy it to.
